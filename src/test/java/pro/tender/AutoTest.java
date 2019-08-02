@@ -1,8 +1,10 @@
 package pro.tender;
 
+import com.codeborne.selenide.Configuration;
 import io.cucumber.junit.Cucumber;
 import io.cucumber.junit.CucumberOptions;
-import org.junit.Test;
+import org.junit.Before;
+import org.junit.BeforeClass;
 import org.junit.runner.RunWith;
 import org.openqa.selenium.chrome.ChromeDriver;
 
@@ -10,17 +12,16 @@ import org.openqa.selenium.chrome.ChromeDriver;
 @CucumberOptions(
         plugin = {"html:target/cucumber-report/smoketest", "json:target/cucumber.json"},
         features = "src/test/java/pro/tender/features",
-        glue = "steps",
+        glue = "pro/tender/step",
         tags = "@all"
 )
 
 public class AutoTest {
-
-
-   public void firstTest() {
-       System.setProperty("webdriver.chrome.driver", "driver/chromedriver.exe");
-       ChromeDriver driver = new ChromeDriver();
-       driver.get("https://new.tender.pro/");
-       driver.quit();
-   }
+    @BeforeClass
+    static public void setupTimeout()
+    {
+        Configuration.timeout = 10000;
+        System.setProperty("webdriver.chrome.driver", "driver/chromedriver.exe");
+        Configuration.browser = "chrome";
+    }
 }
