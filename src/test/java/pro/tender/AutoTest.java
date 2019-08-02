@@ -21,7 +21,7 @@ public class AutoTest {
     static public void setupTimeout()
     {
         Configuration.timeout = 10000;
-        System.setProperty("webdriver.chrome.driver", "driver/chromedriver.exe");
+        System.setProperty("webdriver.chrome.driver", "driver/chromedriver");
         Configuration.browser = "chrome";
     }
 }
