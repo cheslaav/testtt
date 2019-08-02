@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="VcsDirectoryMappings">
+    <mapping directory="$PROJECT_DIR$/gateway" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/gateway/deps/certifi" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/gateway/deps/couchbeam" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/gateway/deps/hackney" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/gateway/deps/idna" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/gateway/deps/jsx" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/gateway/deps/metrics" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/gateway/deps/mimerl" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/gateway/deps/ssl_verify_fun" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/ms_auth" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/ms_auth/deps/esqlite" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/ms_company" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/ms_company/deps/esqlite" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/ms_dict" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/ms_locale" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/ms_pp" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/ms_pp/deps/exlua" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/ms_price_list" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/ms_price_list/deps/esqlite" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/ms_product" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/ms_product/deps/esqlite" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/ms_purchase_list" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/ms_purchase_list/deps/esqlite" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/ms_search" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/ms_search/deps/esqlite" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/ms_search/deps/retrieval" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/ms_search_manager" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/ms_search_manager/deps/esqlite" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/ms_storage" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/ms_storage/deps/esqlite" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/ms_tenders" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/ms_tenders/deps/esqlite" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/ms_tenders/deps/util_db" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/util_db" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/util_db/deps/esqlite" vcs="Git" />
+  </component>
+</project>
